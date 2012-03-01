@@ -459,3 +459,18 @@ projects[wysiwyg][version] = 2.1
 
 
 ; DBC specific libraries and modules
+
+projects[omega][type] = theme
+projects[omega][download][type] = git
+projects[omega][download][url] = git@github.com:ThemeGeeks/Omega.git
+projects[omega][download][tag] = 7.x-3.x
+
+projects[omega_tools][type] = module
+projects[omega_tools][download][type] = git
+projects[omega_tools][download][url] = git@github.com:ThemeGeeks/Omega-Tools.git
+projects[omega_tools][download][tag] = 7.x-3.x
+
+projects[omega_tools][type] = theme
+projects[omega_tools][download][type] = git
+projects[omega_tools][download][url] = git@github.com:DBCDK/ding2_basetheme.git
+projects[omega_tools][download][branch] = master
