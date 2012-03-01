@@ -459,3 +459,18 @@ projects[wysiwyg][version] = 2.1
 
 
 ; DBC specific libraries and modules
+
+projects[openruth][type] = module
+projects[openruth][download][type] = git
+projects[openruth][download][url] = git@github.com:DBCDK/openruth.git
+projects[openruth][download][tag] = 7.x-0.16
+
+projects[ding_provider][type] = module
+projects[ding_provider][download][type] = git
+projects[ding_provider][download][url] = git@github.com:DBCDK/ding_provider.git
+projects[ding_provider][download][tag] = 7.x-0.13
+
+projects[ding_reservation][type] = module
+projects[ding_reservation][download][type] = git
+projects[ding_reservation][download][url] = git@github.com:DBCDK/ding_reservation.git
+projects[ding_reservation][download][tag] = 7.x-0.18
