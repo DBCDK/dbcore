@@ -479,3 +479,8 @@ projects[ting][type] = module
 projects[ting][download][type] = git
 projects[ting][download][url] = git@github.com:DBCDK/ting.git
 projects[ting][download][tag] = 7.x-0.22
+
+projects[ting_material_details][type] = module
+projects[ting_material_details][download][type] = git
+projects[ting_material_details][download][url] = git@github.com:DBCDK/ting_material_details.git
+projects[ting_material_details][download][tag] = 7.x-0.13
