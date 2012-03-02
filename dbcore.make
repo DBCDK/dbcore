@@ -474,3 +474,8 @@ projects[ding_reservation][type] = module
 projects[ding_reservation][download][type] = git
 projects[ding_reservation][download][url] = git@github.com:DBCDK/ding_reservation.git
 projects[ding_reservation][download][tag] = 7.x-0.18
+
+projects[ting][type] = module		  
+projects[ting][download][type] = git
+projects[ting][download][url] = git@github.com:DBCDK/ting.git
+projects[ting][download][tag] = 7.x-0.22
