@@ -10,12 +10,7 @@ api = 2
 core = 7.x
 
 
-; Ding2 profile
-
-;projects[ding2][type] = profile
-;projects[ding2][download][type] = git
-;projects[ding2][download][url] = "git@github.com:ding2/ding2.git"
-;projects[ding2][download][tag] = 7.x-0.4
+; Ding2 profile 7.x-0.4
 
 
 ; Libraries used by Ding2
