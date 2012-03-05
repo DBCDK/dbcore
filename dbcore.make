@@ -489,4 +489,4 @@ projects[ting_material_details][download][tag] = 7.x-0.13+dbc.1
 projects[ting_relation][type] = module
 projects[ting_relation][download][type] = git
 projects[ting_relation][download][url] = git@github.com:DBCDK/ting_relation.git
-projects[ting_relation][download][tag] = 7.x-0.17
+projects[ting_relation][download][tag] = 7.x-0.16+dbc.1
