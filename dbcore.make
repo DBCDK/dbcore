@@ -463,7 +463,7 @@ projects[ding_availability][download][tag] = 7.x-0.14+dbc.1
 projects[ding_library][type] = module
 projects[ding_library][download][type] = git
 projects[ding_library][download][url] = git@github.com:DBCDK/ding_library.git
-projects[ding_library][download][tag] = 7.x-0.17+dbc.2
+projects[ding_library][download][tag] = 7.x-0.17+dbc.3
 
 projects[ding_provider][type] = module
 projects[ding_provider][download][type] = git
