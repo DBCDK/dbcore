@@ -10,12 +10,7 @@ api = 2
 core = 7.x
 
 
-; Ding2 profile
-
-projects[ding2][type] = profile
-projects[ding2][download][type] = git
-projects[ding2][download][url] = "git@github.com:ding2/ding2.git"
-projects[ding2][download][tag] = 7.x-0.4
+; Ding2 profile 7.x-0.4
 
 
 ; Libraries used by Ding2
@@ -459,3 +454,33 @@ projects[wysiwyg][version] = 2.1
 
 
 ; DBC specific libraries and modules
+
+projects[ding_availability][type] = module
+projects[ding_availability][download][type] = git
+projects[ding_availability][download][url] = git@github.com:DBCDK/ding_availability.git
+projects[ding_availability][download][tag] = 7.x-0.14+dbc.1
+
+projects[ding_library][type] = module
+projects[ding_library][download][type] = git
+projects[ding_library][download][url] = git@github.com:DBCDK/ding_library.git
+projects[ding_library][download][tag] = 7.x-0.17+dbc.3
+
+projects[ding_provider][type] = module
+projects[ding_provider][download][type] = git
+projects[ding_provider][download][url] = git@github.com:DBCDK/ding_provider.git
+projects[ding_provider][download][tag] = 7.x-0.13+dbc.1
+
+projects[ding_reservation][type] = module
+projects[ding_reservation][download][type] = git
+projects[ding_reservation][download][url] = git@github.com:DBCDK/ding_reservation.git
+projects[ding_reservation][download][tag] = 7.x-0.18+dbc.1
+
+projects[ting_material_details][type] = module
+projects[ting_material_details][download][type] = git
+projects[ting_material_details][download][url] = git@github.com:DBCDK/ting_material_details.git
+projects[ting_material_details][download][tag] = 7.x-0.13+dbc.1
+
+projects[ting_relation][type] = module
+projects[ting_relation][download][type] = git
+projects[ting_relation][download][url] = git@github.com:DBCDK/ting_relation.git
+projects[ting_relation][download][tag] = 7.x-0.16+dbc.1
