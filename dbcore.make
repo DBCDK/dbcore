@@ -475,12 +475,6 @@ projects[ding_reservation][download][type] = git
 projects[ding_reservation][download][url] = git@github.com:DBCDK/ding_reservation.git
 projects[ding_reservation][download][tag] = 7.x-0.18+dbc.1
 
-;; No update at the moment - someone forgot to push?
-;projects[ting][type] = module
-;projects[ting][download][type] = git
-;projects[ting][download][url] = git@github.com:DBCDK/ting.git
-;projects[ting][download][tag] = 7.x-0.22
-
 projects[ting_material_details][type] = module
 projects[ting_material_details][download][type] = git
 projects[ting_material_details][download][url] = git@github.com:DBCDK/ting_material_details.git
