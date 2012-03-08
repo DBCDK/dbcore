@@ -484,3 +484,9 @@ projects[ting_relation][type] = module
 projects[ting_relation][download][type] = git
 projects[ting_relation][download][url] = git@github.com:DBCDK/ting_relation.git
 projects[ting_relation][download][tag] = 7.x-0.16+dbc.1
+
+projects[alma][type] = module
+projects[alma][download][type] = git
+projects[alma][download][url] = git@github.com:DBCDK/alma.git
+projects[alma][download][tag] = 7.x-0.12
+
