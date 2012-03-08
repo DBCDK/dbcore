@@ -490,3 +490,7 @@ projects[alma][download][type] = git
 projects[alma][download][url] = git@github.com:DBCDK/alma.git
 projects[alma][download][tag] = 7.x-0.12
 
+projects[ting][type] = module
+projects[ting][download][type] = git
+projects[ting][download][url] = git@github.com:DBCDK/ting.git
+projects[ting][download][tag] = 7.x-0.22
