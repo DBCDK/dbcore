@@ -256,11 +256,6 @@ projects[ting_search][download][type] = git
 projects[ting_search][download][url] = git@github.com:ding2/ting_search.git
 projects[ting_search][download][tag] = 7.x-0.26
 
-projects[ting_sfx][type] = module
-projects[ting_sfx][download][type] = git
-projects[ting_sfx][download][url] = git@github.com:ding2/ting_sfx.git
-projects[ting_sfx][download][tag] = 7.x-0.23
-
 
 ; Contrib modules
 
@@ -494,3 +489,8 @@ projects[ting][type] = module
 projects[ting][download][type] = git
 projects[ting][download][url] = git@github.com:DBCDK/ting.git
 projects[ting][download][tag] = 7.x-0.22
+
+projects[ting_sfx][type] = module
+projects[ting_sfx][download][type] = git
+projects[ting_sfx][download][url] = git@github.com:DBCDK/ting_sfx.git
+projects[ting_sfx][download][tag] = 7.x-0.23
