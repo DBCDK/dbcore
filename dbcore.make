@@ -39,6 +39,21 @@ libraries[ting-client][download][type] = git
 libraries[ting-client][download][url] = git@github.com:ding2/ting-client.git
 
 
+; Themes
+
+projects[omega][type] = theme
+;; Currently we'll track the latest released version of Omega. When we
+;; get closer to a release we will settle on the latest released
+;; version.
+; projects[omega][version] = 3.1
+
+projects[ding2_basetheme][type] = theme
+projects[ding2_basetheme][download][type] = git
+projects[ding2_basetheme][download][url] = git@github.com:DBCDK/ding2_basetheme.git
+;; No tags for ding2_basetheme yet.
+; projects[ding2_basetheme][download][tag] = 7.x-1.0
+
+
 ; Modules used by Ding2
 
 projects[alma][type] = module
@@ -130,6 +145,11 @@ projects[ding_news][type] = module
 projects[ding_news][download][type] = git
 projects[ding_news][download][url] = git@github.com:ding2/ding_news.git
 projects[ding_news][download][tag] = 7.x-0.22
+
+projects[ding_omega_frontend][type] = module
+projects[ding_omega_frontend][download][type] = git
+projects[ding_omega_frontend][download][url] = git@github.com:DBCDK/ding_omega_frontend.git
+projects[ding_omega_frontend][download][tag] = 7.x-1.1
 
 projects[ding_page][type] = module
 projects[ding_page][download][type] = git
@@ -280,6 +300,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][type] = module
 projects[ctools][version] = 1.0-rc1
 projects[ctools][patch][] = http://drupal.org/files/issues/user_edit_form-p0-format-1184168.patch
+projects[ctools][patch][] = https://raw.github.com/gist/2044786/e753f4924e2526c00a1d590513073d39a96e3dd1/ctools-page_manager_load_task_handlers_alter.patch
 
 projects[date][subdir] = contrib
 projects[date][type] = module
