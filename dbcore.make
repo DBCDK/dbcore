@@ -300,7 +300,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][type] = module
 projects[ctools][version] = 1.0-rc1
 projects[ctools][patch][] = http://drupal.org/files/issues/user_edit_form-p0-format-1184168.patch
-projects[ctools][patch][] = https://raw.github.com/gist/2044786/e753f4924e2526c00a1d590513073d39a96e3dd1/ctools-page_manager_load_task_handlers_alter.patch
+projects[ctools][patch][] = https://raw.github.com/gist/2044786/6b4ef8173f080715a8752067f7b1511a99b8b816/ctools-page_manager_load_task_handlers_alter.patch
 
 projects[date][subdir] = contrib
 projects[date][type] = module
