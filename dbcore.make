@@ -500,3 +500,7 @@ projects[ding_bookmark][download][type] = git
 projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
 projects[ding_bookmark][download][tag] = 7.x-0.5+dbc.1
 
+projects[ding_user][type] = module
+projects[ding_user][download][type] = git
+projects[ding_user][download][url] = git@github.com:DBCDK/ding_user.git
+projects[ding_user][download][tag] = 7.x-0.19
