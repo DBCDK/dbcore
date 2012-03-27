@@ -56,10 +56,10 @@ projects[ding_base][download][type] = git
 projects[ding_base][download][url] = git@github.com:ding2/ding_base.git
 projects[ding_base][download][tag] = 7.x-0.4
 
-projects[ding_bookmark][type] = module
-projects[ding_bookmark][download][type] = git
-projects[ding_bookmark][download][url] = git@github.com:ding2/ding_bookmark.git
-projects[ding_bookmark][download][tag] = 7.x-0.5
+; projects[ding_bookmark][type] = module
+; projects[ding_bookmark][download][type] = git
+; projects[ding_bookmark][download][url] = git@github.com:ding2/ding_bookmark.git
+; projects[ding_bookmark][download][tag] = 7.x-0.5
 
 projects[ding_campaign][type] = module
 projects[ding_campaign][download][type] = git
