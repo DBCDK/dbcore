@@ -47,11 +47,11 @@ projects[omega][type] = theme
 ;; version.
 ; projects[omega][version] = 3.1
 
-projects[ding2_basetheme][type] = theme
-projects[ding2_basetheme][download][type] = git
-projects[ding2_basetheme][download][url] = git@github.com:DBCDK/ding2_basetheme.git
-;; No tags for ding2_basetheme yet.
-; projects[ding2_basetheme][download][tag] = 7.x-1.0
+projects[ding2omega][type] = theme
+projects[ding2omega][download][type] = git
+projects[ding2omega][download][url] = git@github.com:DBCDK/ding2omega.git
+;; No tags for ding2omega yet.
+; projects[ding2omega][download][tag] = 7.x-1.0
 
 
 ; Modules used by Ding2
@@ -515,3 +515,9 @@ projects[ting_sfx][type] = module
 projects[ting_sfx][download][type] = git
 projects[ting_sfx][download][url] = git@github.com:DBCDK/ting_sfx.git
 projects[ting_sfx][download][tag] = 7.x-0.23
+
+projects[ding_bookmark][type] = module
+projects[ding_bookmark][download][type] = git
+projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
+projects[ding_bookmark][download][tag] = 7.x-0.5
+
