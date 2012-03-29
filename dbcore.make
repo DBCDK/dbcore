@@ -494,3 +494,22 @@ projects[ting_sfx][type] = module
 projects[ting_sfx][download][type] = git
 projects[ting_sfx][download][url] = git@github.com:DBCDK/ting_sfx.git
 projects[ting_sfx][download][tag] = 7.x-0.23
+
+projects[ding_bookmark][type] = module
+projects[ding_bookmark][download][type] = git
+projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
+projects[ding_bookmark][download][tag] = 7.x-0.5+dbc.1
+
+projects[mkdru][subdir] = contrib
+projects[mkdru][type] = module
+projects[mkdru][download][type] = git
+projects[mkdru][download][revision] = FALSE
+projects[mkdru][download][url] = http://git.drupal.org/project/mkdru.git
+projects[mkdru][download][tag] = 7.x-1.3
+projects[mkdru][patch] = FALSE
+
+projects[varnish][subdir] = contrib
+projects[varnish][type] = module
+projects[varnish][download][type] = git
+projects[varnish][download][url] = http://git.drupal.org/project/varnish.git
+projects[varnish][download][tag] = 7.x-1.0-beta1
