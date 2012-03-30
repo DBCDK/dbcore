@@ -506,7 +506,8 @@ projects[mkdru][download][type] = git
 projects[mkdru][download][revision] = FALSE
 projects[mkdru][download][url] = http://git.drupal.org/project/mkdru.git
 projects[mkdru][download][tag] = 7.x-1.3
-projects[mkdru][patch] = FALSE
+; patches still needed
+; projects[mkdru][patch] = FALSE
 
 projects[varnish][subdir] = contrib
 projects[varnish][type] = module
