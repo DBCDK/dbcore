@@ -508,7 +508,9 @@ projects[mkdru][download][revision] = FALSE
 projects[mkdru][download][url] = http://git.drupal.org/project/mkdru.git
 projects[mkdru][download][tag] = 7.x-1.3
 ; patches still needed
-; projects[mkdru][patch] = FALSE
+projects[mkdru][patch] = FALSE
+projects[mkdru][patch][] = http://drupal.org/files/correct-drupal-t-function.patch
+projects[mkdru][patch][] = http://drupal.org/files/selected-facet-disappears-in-ie8-and-below-1337572-7.x-1.3.patch
 
 projects[varnish][subdir] = contrib
 projects[varnish][type] = module
