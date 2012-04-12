@@ -495,11 +495,11 @@ projects[ting_sfx][download][type] = git
 projects[ting_sfx][download][url] = git@github.com:DBCDK/ting_sfx.git
 projects[ting_sfx][download][tag] = 7.x-0.23
 
-; Remove - downgraded
-;projects[ding_bookmark][type] = module
-;projects[ding_bookmark][download][type] = git
-;projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
-;projects[ding_bookmark][download][tag] = 7.x-0.5+dbc.1
+; Downgraded to 0.5 - missing ding2/ding_bookmark.git
+projects[ding_bookmark][type] = module
+projects[ding_bookmark][download][type] = git
+projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
+projects[ding_bookmark][download][tag] = 7.x-0.5
 
 projects[mkdru][subdir] = contrib
 projects[mkdru][type] = module
