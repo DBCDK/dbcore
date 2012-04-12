@@ -453,7 +453,7 @@ projects[wysiwyg][version] = 2.1
 projects[ding_availability][type] = module
 projects[ding_availability][download][type] = git
 projects[ding_availability][download][url] = git@github.com:DBCDK/ding_availability.git
-projects[ding_availability][download][tag] = 7.x-0.14+dbc.2
+projects[ding_availability][download][tag] = 7.x-0.14+dbc.3
 
 projects[ding_library][type] = module
 projects[ding_library][download][type] = git
@@ -483,7 +483,7 @@ projects[ting_relation][download][tag] = 7.x-0.16+dbc.1
 projects[alma][type] = module
 projects[alma][download][type] = git
 projects[alma][download][url] = git@github.com:DBCDK/alma.git
-projects[alma][download][tag] = 7.x-0.12+dbc.1
+projects[alma][download][tag] = 7.x-0.12+dbc.2
 
 projects[ting][type] = module
 projects[ting][download][type] = git
@@ -495,10 +495,11 @@ projects[ting_sfx][download][type] = git
 projects[ting_sfx][download][url] = git@github.com:DBCDK/ting_sfx.git
 projects[ting_sfx][download][tag] = 7.x-0.23
 
-projects[ding_bookmark][type] = module
-projects[ding_bookmark][download][type] = git
-projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
-projects[ding_bookmark][download][tag] = 7.x-0.5+dbc.1
+; Remove - downgraded
+;projects[ding_bookmark][type] = module
+;projects[ding_bookmark][download][type] = git
+;projects[ding_bookmark][download][url] = git@github.com:DBCDK/ding_bookmark.git
+;projects[ding_bookmark][download][tag] = 7.x-0.5+dbc.1
 
 projects[mkdru][subdir] = contrib
 projects[mkdru][type] = module
