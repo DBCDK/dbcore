@@ -468,7 +468,7 @@ projects[ding_provider][download][tag] = 7.x-0.13+dbc.1
 projects[ding_reservation][type] = module
 projects[ding_reservation][download][type] = git
 projects[ding_reservation][download][url] = git@github.com:DBCDK/ding_reservation.git
-projects[ding_reservation][download][tag] = 7.x-0.18+dbc.1
+projects[ding_reservation][download][tag] = 7.x-0.18+dbc.2
 
 projects[ting_material_details][type] = module
 projects[ting_material_details][download][type] = git
@@ -483,7 +483,7 @@ projects[ting_relation][download][tag] = 7.x-0.16+dbc.1
 projects[alma][type] = module
 projects[alma][download][type] = git
 projects[alma][download][url] = git@github.com:DBCDK/alma.git
-projects[alma][download][tag] = 7.x-0.12+dbc.2
+projects[alma][download][tag] = 7.x-0.12+dbc.3
 
 projects[ting][type] = module
 projects[ting][download][type] = git
