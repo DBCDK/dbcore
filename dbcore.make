@@ -141,10 +141,10 @@ projects[ding_path_alias][download][type] = git
 projects[ding_path_alias][download][url] = git@github.com:ding2/ding_path_alias.git
 projects[ding_path_alias][download][tag] = 7.x-0.6
 
-projects[ding_periodical][type] = module
-projects[ding_periodical][download][type] = git
-projects[ding_periodical][download][url] = git@github.com:ding2/ding_periodical.git
-projects[ding_periodical][download][tag] = 7.x-0.12
+;projects[ding_periodical][type] = module
+;projects[ding_periodical][download][type] = git
+;projects[ding_periodical][download][url] = git@github.com:ding2/ding_periodical.git
+;projects[ding_periodical][download][tag] = 7.x-0.12
 
 projects[ding_popup][type] = module
 projects[ding_popup][download][type] = git
@@ -450,6 +450,11 @@ projects[wysiwyg][version] = 2.1
 
 
 ; DBC specific libraries and modules
+
+projects[ding_periodical][type] = module
+projects[ding_periodical][download][type] = git
+projects[ding_periodical][download][url] = git@github.com:DBCDK/ding_periodical.git
+projects[ding_periodical][download][tag] = 7.x-0.12+dbc.1
 
 projects[ding_availability][type] = module
 projects[ding_availability][download][type] = git
