@@ -450,6 +450,10 @@ projects[wysiwyg][version] = 2.1
 
 
 ; DBC specific libraries and modules
+projects[ting_covers][type] = module
+projects[ting_covers][download][type] = git
+projects[ting_covers][download][url] = git@github.com:DBCDK/ting_covers.git
+projects[ting_covers][download][tag] = 7.x-0.22
 
 projects[ding_periodical][type] = module
 projects[ding_periodical][download][type] = git
