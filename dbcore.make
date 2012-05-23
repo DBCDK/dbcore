@@ -471,6 +471,11 @@ projects[wysiwyg][version] = 2.1
 
 ; DBC specific libraries and modules
 
+libraries[ting-client][destination] = modules/ting/lib
+libraries[ting-client][download][type] = git
+libraries[ting-client][download][url] = git@github.com:DBCDK/ting-client.git
+libraries[ting-client][download][tag] = 7.x-2.0
+
 projects[ding_availability][type] = module
 projects[ding_availability][download][type] = git
 projects[ding_availability][download][url] = git@github.com:DBCDK/ding_availability.git
