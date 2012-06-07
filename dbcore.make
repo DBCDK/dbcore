@@ -34,9 +34,10 @@ libraries[profiler][download][type] = git
 libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
 libraries[profiler][patch][] = http://drupal.org/files/profiler-reverse.patch
 
-libraries[ting-client][destination] = modules/ting/lib
-libraries[ting-client][download][type] = git
-libraries[ting-client][download][url] = git@github.com:ding2/ting-client.git
+; Removed due to rewrite of ting-client
+;libraries[ting-client][destination] = modules/ting/lib
+;libraries[ting-client][download][type] = git
+;libraries[ting-client][download][url] = git@github.com:ding2/ting-client.git
 
 
 ; Themes
@@ -471,11 +472,6 @@ projects[wysiwyg][version] = 2.1
 
 ; DBC specific libraries and modules
 
-libraries[ting-client][destination] = modules/ting/lib
-libraries[ting-client][download][type] = git
-libraries[ting-client][download][url] = git@github.com:DBCDK/ting-client.git
-libraries[ting-client][download][tag] = 7.x-2.0
-
 projects[ding_availability][type] = module
 projects[ding_availability][download][type] = git
 projects[ding_availability][download][url] = git@github.com:DBCDK/ding_availability.git
@@ -515,6 +511,11 @@ projects[ting][type] = module
 projects[ting][download][type] = git
 projects[ting][download][url] = git@github.com:DBCDK/ting.git
 projects[ting][download][tag] = 7.x-0.22
+
+projects[ting][type] = module
+projects[ting-client][download][type] = git
+projects[ting-client][download][url] = git@github.com:DBCDK/ting-client.git
+;projects[ting-client][download][tag] = 7.x-2.1-dev
 
 projects[ting_sfx][type] = module
 projects[ting_sfx][download][type] = git
