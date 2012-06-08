@@ -512,7 +512,7 @@ projects[ting][download][type] = git
 projects[ting][download][url] = git@github.com:DBCDK/ting.git
 projects[ting][download][tag] = 7.x-0.22
 
-projects[ting][type] = module
+projects[ting-client][type] = module
 projects[ting-client][download][type] = git
 projects[ting-client][download][url] = git@github.com:DBCDK/ting-client.git
 ;projects[ting-client][download][tag] = 7.x-2.1-dev
